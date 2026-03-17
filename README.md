@@ -106,7 +106,7 @@ java TodoGUI
 - Collaborative task sharing
 
 
-## Run the Project
+## Run the Project -----
 
 Compile:
 
