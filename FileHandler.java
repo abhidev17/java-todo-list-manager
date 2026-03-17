@@ -28,7 +28,19 @@ public class FileHandler {
                 // New pipe-delimited format
                 if (line.contains("|")) {
                     String[] parts = line.split("\\|(?!\\\\)", -1);
-                    if (parts.length >= 6) {
+                    if (parts.length >= 7) {
+                        // New format with time and status
+                        tasks.add(new Task(
+                            unescape(parts[0]),  // description
+                            unescape(parts[1]),  // deadline
+                            unescape(parts[2]),  // deadlineTime
+                            unescape(parts[3]),  // priority
+                            unescape(parts[4]),  // category
+                            unescape(parts[5]),  // notes
+                            unescape(parts[6])   // status
+                        ));
+                    } else if (parts.length >= 6) {
+                        // Old format without time and status
                         tasks.add(new Task(
                             unescape(parts[0]),
                             unescape(parts[1]),
