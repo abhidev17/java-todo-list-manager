@@ -57,7 +57,7 @@ public class Task {
             case "In Progress" -> "⟳";
             default -> "○";
         };
-        String priorityIcon = switch (priority) {
+         String priorityIcon = switch (priority) {
             case "High" -> "🔴";
             case "Medium" -> "🟡";
             case "Low" -> "🟢";
