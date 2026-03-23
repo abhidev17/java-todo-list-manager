@@ -9,7 +9,7 @@ public class Task {
     String status;  // "To Do", "In Progress", "Done"
     boolean completed;  // Legacy field for compatibility
 
-    public Task(String description, String deadline, String deadlineTime, String priority, String category, String notes, String status) {
+    public Task(String description, String deadline, String deadlineTime, String priority, String category, String notes, String status)     {
         this.description = description;
         this.deadline = deadline;
         this.deadlineTime = deadlineTime != null ? deadlineTime : "";
