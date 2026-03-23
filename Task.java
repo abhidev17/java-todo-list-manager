@@ -21,7 +21,7 @@ public class Task {
     }
 
     // Backward-compatible constructors
-    public Task(String description, String deadline, String priority, String category, String notes, boolean completed) {
+    public Task(String description, String deadline, String priority, String category, String notes, boolean completed)   {
         this.description = description;
         this.deadline = deadline;
         this.deadlineTime = "";
