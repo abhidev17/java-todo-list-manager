@@ -155,7 +155,7 @@ public class TodoGUI {
         bar.add(left, BorderLayout.WEST);
         bar.add(right, BorderLayout.EAST);
         return bar;
-    }
+     }
 
     JPanel buildMain() {
         JPanel p = new JPanel(new BorderLayout());
