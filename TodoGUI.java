@@ -167,7 +167,7 @@ public class TodoGUI  {
     }
 
     // ── SIDEBAR ────────────────────────────────────────────────────────────────
-    JPanel buildSidebar() {
+    JPanel buildSidebar()  {
         JPanel p = new JPanel();
         p.setLayout(new BoxLayout(p, BoxLayout.Y_AXIS));
         p.setBackground(BG_SIDEBAR);
