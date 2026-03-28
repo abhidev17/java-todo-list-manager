@@ -91,7 +91,7 @@ public class TodoGUI  {
     }
 
     // ── TOP BAR ────────────────────────────────────────────────────────────────
-    JPanel buildTopBar() {
+    JPanel buildTopBar()  {
         JPanel bar = new JPanel(new BorderLayout());
         bar.setBackground(BG_SIDEBAR);
         bar.setBorder(new CompoundBorder(BorderFactory.createMatteBorder(0,0,1,0,BORDER), new EmptyBorder(14,20,14,20)));
