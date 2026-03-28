@@ -9,7 +9,7 @@ import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
 
-public class TodoGUI {
+public class TodoGUI  {
 
      // ── LIGHT COLOR PALETTE ────────────────────────────────────────────────────
     static final Color BG_ROOT      = new Color(0xF8, 0xF9, 0xFA);
