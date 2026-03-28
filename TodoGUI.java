@@ -11,7 +11,7 @@ import javax.swing.event.*;
 
 public class TodoGUI {
 
-    // ── LIGHT COLOR PALETTE ────────────────────────────────────────────────────
+     // ── LIGHT COLOR PALETTE ────────────────────────────────────────────────────
     static final Color BG_ROOT      = new Color(0xF8, 0xF9, 0xFA);
     static final Color BG_SIDEBAR   = new Color(0xFF, 0xFF, 0xFF);
     static final Color BG_CARD      = new Color(0xFF, 0xFF, 0xFF);
