@@ -244,7 +244,7 @@ public class TodoGUI  {
     }
 
     // ── TASK AREA ──────────────────────────────────────────────────────────────
-    JPanel buildTaskArea() {
+    JPanel buildTaskArea()  {
         JPanel p = new JPanel(new BorderLayout(0, 10));
         p.setBackground(BG_ROOT);
         p.setBorder(new EmptyBorder(16, 16, 10, 8));
